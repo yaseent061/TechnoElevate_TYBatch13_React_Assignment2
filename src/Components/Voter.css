@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 500px;
+  background-color: rgb(230, 195, 191);
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.main div {
+  padding: 30px;
+  font-size: 20px;
+}
+
+.click {
+  font-size: 40px;
+  font-weight: 700;
+  color: green;
+}
+
+.click:hover {
+  cursor: pointer;
+}
